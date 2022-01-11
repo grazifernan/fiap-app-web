@@ -1,0 +1,54 @@
+.button {
+    border: 3px solid #dd0000;
+    padding: 10px 40px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    cursor: pointer;
+    transition: ease-in-out .2s;
+    text-decoration: none;
+}
+
+.btnMenu:first-of-type {
+    margin-top: 100px;
+}
+
+.primary:hover,
+.secundary:hover {
+    transform: scale(1.03);
+}
+
+.secundary {
+    color: black;
+    background-color: #FBFBFB;
+}
+
+.primary {
+    color: #FBFBFB;
+    background-color: #dd0000;
+    margin-left: 40px;
+}
+
+.btnMenu {
+    color: black !important;
+    background-color: #dd000010;
+    width: 100%;
+    padding: 25px;
+    margin: 0;
+    border: 0;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-decoration: none
+}
+
+.Selected {
+    color: #FBFBFB !important;
+    background-color: #dd0000 !important;
+}

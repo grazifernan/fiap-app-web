@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    width: 100%;
+    background-color: #F2F2F2;
+  }
+  
+  .App {
+    text-align: center;
+    /*background-color: #dd000010
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    padding: 45px 45px 0px 0px;
+    border-radius: 10px;
+  }
+  
+  .header {
+    display: inline-block;
+    text-align: end;
+  }
+  
+  .main {
+    display: inline-block;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+  
+  
+  #imgProfile {
+    height: auto;
+    width: 80px;
+    border-radius: 100%;
+  }
+  
+  .logo {
+    height: auto;
+    width: 50%;
+    align-self: center;
+  }
+
